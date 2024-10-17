@@ -54,7 +54,7 @@ const Navbar = () => {
       />
             <div className="container mx-auto flex justify-between items-center">
                 <Link href={"/"}><div className="text-lg font-bold">
-                    HarryBlog
+                    UbaidBlog
                 </div></Link>
                 <div className="hidden md:flex space-x-4 items-center">
                     <Link href="/" className="hover:scale-105 hover:font-semibold transition-transform duration-300"> Home
