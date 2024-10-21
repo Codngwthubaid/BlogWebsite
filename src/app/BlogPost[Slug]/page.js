@@ -24,7 +24,7 @@ export default async function Page({ params }) {
     //     content: "<p>This is the content of the blog post. It can include <strong>HTML</strong> tags and other elements.</p>"
     // };
 
-    const filepath = `content/${params.slug}.md`
+    const filepath = `src/content/${params.slug}.md`
     
     if(!fs.existsSync(filepath)){ 
         notFound() 
